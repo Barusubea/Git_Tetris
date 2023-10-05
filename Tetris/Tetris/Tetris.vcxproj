@@ -134,6 +134,9 @@
     <ClCompile Include="AppMain.cpp" />
     <ClCompile Include="Block.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Block.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
