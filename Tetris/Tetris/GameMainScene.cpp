@@ -37,5 +37,7 @@ int GameMainScene_Initialize(void)
 
 	ret = Block_Initialize();
 	BackGround_image = LoadGraph("images/stage.png");
-	BackGround_sound=LoadSoundMem("
+	BackGround_sound = LoadSoundMem("sounds/BGM017.ogg");
+	GameOver_sound = LoadSoundMem("sounds/Gameover.mp3");
+
 }
